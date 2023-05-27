@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doceria</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="sidebar">
+            <div class="sidebar-container">
+                <img class="logo-doceria" src="img/stand.png" alt="Logo Doceria">
+                <h1>Doceria</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html#home">Bem Vindo</a></li>
+                        <li><a href="index.html#section-about">Sobre</a></li>
+                        <li><a href="index.html#doces1-section">Doces 1</a></li>
+                        <li><a href="index.html#doces2-section">Doces 2</a></li>
+                        <li><a href="index.html#doces3-section">Doces 3</a></li>
+                        <li><a href="index.html#section-contact">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="content">
+            <main>
+                <section id="home">
+                    <div class="banner"></div>
+                    <div class="section-home-content">
+                        <h1>Seja bem vindo a Doceria</h1>
+                        <div class="section-minibanner"></div>
+                        <div class="description">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat tempora, quae corrupti
+                                nisi consectetur labore suscipit, velit quod eveniet natus assumenda. Voluptatibus
+                                temporibus modi dolor praesentium incidunt, cumque quaerat magni!
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat tempora, quae corrupti
+                                nisi consectetur labore suscipit, velit quod eveniet natus assumenda. Voluptatibus
+                                temporibus modi dolor praesentium incidunt, cumque quaerat magni!
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat tempora, quae corrupti
+                                nisi consectetur labore suscipit, velit quod eveniet natus assumenda. Voluptatibus
+                                temporibus modi dolor praesentium incidunt, cumque quaerat magni!
+                            </p>
+                            <a class="section-home-bnt" href="#">Leia mais</a>
+                        </div>
+                    </div>
+                </section>
+                <section id="section-about">
+                    <div class="section-about-content">
+                        <h1>Sobre Nós</h1>
+                        <div class="section-minibanner"></div>
+                        <div class="description">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat tempora, quae corrupti
+                                nisi consectetur labore suscipit, velit quod eveniet natus assumenda. Voluptatibus
+                                temporibus modi dolor praesentium incidunt, cumque quaerat magni!
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat tempora, quae corrupti
+                                nisi consectetur labore suscipit, velit quod eveniet natus assumenda. Voluptatibus
+                                temporibus modi dolor praesentium incidunt, cumque quaerat magni!
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat tempora, quae corrupti
+                                nisi consectetur labore suscipit, velit quod eveniet natus assumenda. Voluptatibus
+                                temporibus modi dolor praesentium incidunt, cumque quaerat magni!
+                            </p>
+                            <a class="section-home-bnt" href="#">Leia mais</a>
+                        </div>
+                    </div>
+                </section>
+                <section id="doces1-section">
+                    <h2>Doces 1</h2>
+                    <div class="swiper-container">
+                        <div class="doces1-img banner-galeria" id="img1"></div>
+                        <div class="doces1-img banner-galeria" id="img2"></div>
+                        <div class="doces1-img banner-galeria" id="img3"></div>
+                        <div class="doces1-img banner-galeria" id="img4"></div>
+                        <div class="doces1-img banner-galeria" id="img5"></div>
+                    </div>
+                </section>
+
+                <section id="doces2-section">
+                    <h2>Doces 2</h2>
+                    <div class="doces2-img banner-galeria" id="img6"></div>
+                    <div class="doces2-img banner-galeria" id="img7"></div>
+                    <div class="doces2-img banner-galeria" id="img8"></div>
+                </section>
+                <section id="doces3-section">
+                    <h2>Doces 3</h2>
+                    <div class="doces3-img banner-galeria" id="img9"></div>
+                    <div class="doces3-img banner-galeria" id="img10"></div>
+                    <div class="doces3-img banner-galeria" id="img11"></div>
+                    <div class="doces3-img banner-galeria" id="img12"></div>
+                </section>
+                <section id="section-contact">
+                    <h2>Contato</h2>
+                    <form action="" id="form-contact">
+                        <input type="text" name="name" placeholder="Nome">
+                        <input type="text" name="email" placeholder="E-mail">
+                        <textarea name="message" placeholder="Escreva sua mensagem..."></textarea>
+                        <input type="submit" value="Enviar">
+                    </form>
+                </section>
+                <footer>
+                    <p>
+                        Eike.H @ 2023
+                    </p>
+                </footer>
+            </main>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 3,
+            spaceBetween: 10,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    </script>
+
+</body>
+
+</html>
